@@ -3,39 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nala Florist - Toko Bunga</title>
+  <title>Cuaca Hari Ini</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>💐 Nala Florist</h1>
-    <p>Merangkai bunga, menyampaikan rasa 🌸</p>
-  </header>
-
-  <section id="about">
-    <h2>Tentang Kami</h2>
-    <p>Nala Florist hadir untuk menemani momen spesial kamu. Kami menyediakan berbagai bunga segar dengan sentuhan hati, cocok untuk hadiah, dekorasi, dan kejutan istimewa.</p>
-  </section>
-
-  <section id="products">
-    <h2>Produk Unggulan</h2>
-    <ul>
-      <li>Buket Mawar Romantis</li>
-      <li>Box Bunga Premium</li>
-      <li>Mini Bouquet Ucapan</li>
-      <li>Rangkaian Meja Klasik</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Kontak</h2>
-    <p>Instagram: <a href="https://instagram.com/nalaflorist.id" target="_blank">@nalaflorist.id</a></p>
-    <p>WhatsApp: 0821-1234-5678</p>
-    <p>Email: nabila.florist@gmail.com</p>
-  </section>
-
-  <footer>
-    <p>© 2025 Nala Florist. Bunga kami, untuk senyum kamu 🌹</p>
-  </footer>
+  <div class="container">
+    <h1>🌤️ Info Cuaca</h1>
+    <input type="text" id="cityInput" placeholder="Masukkan nama kota..." />
+    <button onclick="getWeather()">Cari</button>
+    
+    <div class="result" id="weatherResult">
+      <!-- hasil cuaca akan tampil di sini -->
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
 </body>
 </html>
