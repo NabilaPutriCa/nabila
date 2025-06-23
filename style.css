@@ -1,59 +1,85 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #fff5f7;
-  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff9f9;
+  color: #4e2a2a;
 }
 
 header {
-  background-color: #f06292;
+  background-color: #e91e63;
   color: white;
+  padding: 20px;
   text-align: center;
-  padding: 40px 20px;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 3em;
-}
-
-header p {
+nav {
   margin-top: 10px;
-  font-size: 1.2em;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background-color: #fde4ec;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #c2185b;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #ad1457;
 }
 
 section {
-  padding: 25px 20px;
-  margin: 20px;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 40px 20px;
 }
 
-h2 {
-  color: #d81b60;
+section h2 {
+  color: #c2185b;
 }
 
 ul {
-  list-style: 🌷;
+  list-style-type: square;
   padding-left: 20px;
 }
 
 footer {
-  background-color: #880e4f;
-  color: #eee;
+  background-color: #e91e63;
+  color: white;
   text-align: center;
   padding: 15px;
   font-size: 0.9em;
-  margin-top: 30px;
 }
 
-a {
-  color: #d81b60;
-  text-decoration: none;
+form label {
+  font-weight: bold;
 }
 
-a:hover {
-  text-decoration: underline;
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
