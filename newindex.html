@@ -1,0 +1,419 @@
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Gallery Retro</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="header-controls">
+      <h1>🍽️ Ensiklopedia Makanan</h1>
+      <button id="backToMain">← Kembali</button>
+    </div>
+  </header>
+
+  <section class="intro">
+    <p>Website ini berisi penjelasan lengkap tentang makanan: asal mula, bahan, dan cara membuatnya. Jelajahi berbagai makanan populer dari seluruh dunia! <strong>Klik web makanan untuk melihat detail lengkap.</strong></p>
+  </section>
+
+  <div class="food-container" id="mainContainer">
+
+    <!-- COOKIES -->
+    <div class="card" data-food-type="cookies">
+      <img src="cookies.jpg" alt="Cookies">
+      <h2>Cookies</h2>
+      <p><b>Asal Mula</b><br>
+      Cookies atau kue kering pertama kali muncul di Persia pada abad ke-7. Kata "cookie" berasal dari bahasa Belanda "koekje" yang artinya kue kecil. Di Indonesia, cookies berkembang dengan berbagai varian seperti nastar, kastengel, dan putri salju yang biasa disajikan saat hari raya.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      • 250 gram tepung terigu<br>
+      • 150 gram mentega<br>
+      • 100 gram gula halus<br>
+      • 1 butir telur<br>
+      • 1 sdt vanili bubuk<br>
+      • 1/2 sdt baking powder<br>
+      • Choco chips secukupnya<br>
+      • Garam secukupnya</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Kocok mentega dan gula halus hingga mengembang.<br>
+      2. Masukkan telur dan vanili, kocok rata.<br>
+      3. Ayak tepung terigu, baking powder, dan garam. Masukkan ke adonan basah sedikit demi sedikit.<br>
+      4. Aduk hingga rata, tambahkan choco chips.<br>
+      5. Bentuk bulat-bulat, letakkan di loyang berjarak.<br>
+      6. Panggang dalam oven suhu 170°C selama 15-20 menit hingga matang.<br>
+      7. Keluarkan dan dinginkan sebelum disajikan.</p>
+
+      <p class="references"><b>Referensi & Sumber:</b><br>
+      • <a href="https://id.wikipedia.org/wiki/Kue_kering" target="_blank" rel="noopener">Wikipedia: Sejarah Kue Kering</a><br>
+      • <a href="https://www.halodoc.com/artikel/ini-resep-dan-cara-membuat-cookies-yang-mudah-dibuat-di-rumah" target="_blank" rel="noopener">Halodoc: Resep Cookies Mudah</a></p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- ICE CREAM -->
+    <div class="card" data-food-type="icecream">
+      <img src="icecream.jpg" alt="Ice Cream">
+      <h2>Es Krim</h2>
+      <p><b>Asal Mula:</b><br>
+      Es krim dipercaya berasal dari Cina kuno sekitar 200 SM. Di Indonesia, es krim mulai populer sejak zaman kolonial Belanda. Sekarang es krim menjadi dessert favorit semua usia dengan berbagai varian rasa lokal seperti durian, kelapa muda, dan kacang hijau.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      • 250 ml susu cair full cream<br>
+      • 200 ml whipped cream bubuk (dicairkan dengan 200 ml air)<br>
+      • 100 gram gula pasir<br>
+      • 2 sdm susu kental manis<br>
+      • 1 sdt vanili cair<br>
+      • Es batu secukupnya<br>
+      • Garam secukupnya</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Campur susu cair, whipped cream, gula pasir, susu kental manis, dan vanili. Aduk rata.<br>
+      2. Tuang ke dalam wadah tahan panas, tutup rapat.<br>
+      3. Siapkan baskom besar, isi dengan es batu dan taburi garam.<br>
+      4. Letakkan wadah adonan es krim di tengah es batu.<br>
+      5. Aduk adonan setiap 30 menit selama 3-4 jam hingga membeku dan lembut.<br>
+      6. Es krim siap disajikan atau bisa disimpan di freezer.</p>
+
+      <p class="references"><b>Referensi & Sumber:</b><br>
+      • <a href="https://id.wikipedia.org/wiki/Es_krim" target="_blank" rel="noopener">Wikipedia: Sejarah Es Krim</a><br>
+      • <a href="https://www.kompas.com/food/read/2025/08/10/090900275/resep-es-krim-lembut-tanpa-mesin-pakai-garam-dan-es-batu" target="_blank" rel="noopener">Kompas: Resep Es Krim Tanpa Mesin</a></p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- JELLY -->
+    <div class="card" data-food-type="jelly">
+      <img src="jelly.jpg" alt="Jelly">
+      <h2>Jelly</h2>
+      <p><b>Asal Mula:</b><br>
+      Jeli sudah dikenal sejak abad pertengahan di Eropa. Di Indonesia, jelly menjadi dessert populer yang sering disajikan dengan sirup atau susu. Jelly buah dengan warna-warni cerah menjadi favorit anak-anak dan sering dijumpai di berbagai acara.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      • 1 bungkus agar-agar bubuk (7 gram)<br>
+      • 700 ml air<br>
+      • 100 gram gula pasir<br>
+      • 1 kaleng susu kental manis<br>
+      • Sirup cocopandan secukupnya<br>
+      • Pewarna makanan (opsional)</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Campur agar-agar bubuk, gula pasir, dan air dalam panci.<br>
+      2. Masak di atas api sedang sambil diaduk hingga mendidih.<br>
+      3. Setelah mendidih, kecilkan api dan masak selama 2-3 menit.<br>
+      4. Tambahkan susu kental manis dan sirup cocopandan, aduk rata.<br>
+      5. Jika ingin berwarna, tambahkan pewarna makanan.<br>
+      6. Tuang ke dalam cetakan, diamkan hingga dingin.<br>
+      7. Masukkan ke kulkas minimal 2 jam hingga mengeras.</p>
+
+      <p class="references"><b>Referensi & Sumber:</b><br>
+      • <a href="https://id.wikipedia.org/wiki/Jeli" target="_blank" rel="noopener">Wikipedia: Sejarah Jeli</a><br>
+      • <a href="https://jakartapowdersupply.com/cara-membuat-jelly/" target="_blank" rel="noopener">Jakarta Powder Supply: Cara Membuat Jelly</a></p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- CHOCOLATE -->
+    <div class="card" data-food-type="chocolate">
+      <img src="coklat.jpg" alt="Coklat">
+      <h2>Cokelat Dubai</h2>
+      <p><b>Asal Mula Cokelat Dubai:</b><br>
+      Cokelat Dubai adalah kreasi modern yang berasal dari Uni Emirat Arab. Cokelat ini terkenal dengan kemewahannya dan sering dijadikan oleh-oleh khas Dubai. Dengan tekstur yang lembut dan rasa yang kaya, cokelat Dubai menjadi simbol kemewahan di dunia dessert.</p>
+
+      <p><b>Bahan-bahan Cokelat Dubai:</b><br>
+      • 200 gram cokelat batang dark chocolate<br>
+      • 100 ml susu cair full cream<br>
+      • 2 sdm madu<br>
+      • 1 sdm mentega<br>
+      • Topping: almond slice, pistachio, edible gold leaf</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Potong kecil cokelat batang, lelehkan dengan cara double boiler.<br>
+      2. Panaskan susu cair hingga hangat (jangan mendidih).<br>
+      3. Tuang susu hangat ke cokelat leleh sedikit demi sedikit sambil diaduk.<br>
+      4. Tambahkan madu dan mentega, aduk hingga licin dan mengkilap.<br>
+      5. Tuang ke dalam cetakan cokelat, ketuk-ketuk untuk menghilangkan gelembung.<br>
+      6. Taburi dengan almond slice, pistachio, dan edible gold leaf.<br>
+      7. Dinginkan di kulkas minimal 3 jam hingga mengeras.</p>
+
+      <p class="references"><b>Referensi & Sumber:</b><br>
+      • <a href="https://id.wikipedia.org/wiki/Cokelat" target="_blank" rel="noopener">Wikipedia: Sejarah Cokelat</a><br>
+      • <a href="https://mediaindonesia.com/humaniora/732434/6-cara-mudah-membuat-cokelat-dubai-viral-paling-mudah-dipraktikkan-di-rumah" target="_blank" rel="noopener">Media Indonesia: Resep Cokelat Dubai</a></p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- PERMEN -->
+    <div class="card" data-food-type="candy">
+      <img src="permen.jpg" alt="Permen">
+      <h2>Permen</h2>
+      <p><b>Asal Mula:</b><br>
+      Permen sudah dikenal sejak Mesir kuno sekitar 2000 SM. Di Indonesia, permen tradisional seperti permen jahe, permen kacang, dan permen susu telah menjadi bagian dari kuliner lokal. Industri permen modern terus berkembang dengan berbagai inovasi rasa dan bentuk.</p>
+
+      <p><b>Bahan-bahan Permen Kopi:</b><br>
+      • 200 gram gula pasir<br>
+      • 100 ml air<br>
+      • 2 sdm bubuk kopi instan<br>
+      • 1 sdt mentega<br>
+      • 1/2 sdt garam<br>
+      • Cetakan permen</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Campur gula pasir, air, dan garam dalam panci anti lengket.<br>
+      2. Masak dengan api kecil sambil diaduk hingga gula larut.<br>
+      3. Tambahkan bubuk kopi, aduk rata.<br>
+      4. Masak terus hingga mencapai suhu 150°C (hard crack stage).<br>
+      5. Angkat dari api, tambahkan mentega, aduk cepat.<br>
+      6. Tuang segera ke cetakan permen yang sudah dioles minyak.<br>
+      7. Biarkan dingin dan mengeras (±30 menit).<br>
+      8. Keluarkan dari cetakan, simpan dalam wadah kedap udara.</p>
+
+      <p class="references"><b>Referensi & Sumber:</b><br>
+      • <a href="https://id.wikipedia.org/wiki/Permen" target="_blank" rel="noopener">Wikipedia: Sejarah Permen</a><br>
+      • <a href="https://www.merdeka.com/jatim/9-cara-membuat-permen-aneka-bahan-mudah-dan-enak-dari-lidah-buaya-hingga-kopi-kln.html?page=2" target="_blank" rel="noopener">Merdeka: Resep Permen Kopi</a></p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- MARSHMALLOW -->
+    <div class="card" data-food-type="marshmallow">
+      <img src="marshmallow.jpg" alt="Marshmallow">
+      <h2>Marshmallow</h2>
+      <p><b>Asal Mula:</b><br>
+      Marshmallow pertama kali dibuat dari getah tanaman marshmallow (Althaea officinalis). Di Indonesia, marshmallow populer sebagai campuran minuman cokelat panas atau dipanggang bersama s'mores. Marshmallow juga sering digunakan sebagai topping pada berbagai dessert.</p>
+
+      <p><b>Bahan-bahan Marshmallow Strawberry:</b><br>
+      • 250 gram gula pasir<br>
+      • 150 ml air<br>
+      • 3 sdm gelatin bubuk<br>
+      • 1 sdt ekstrak vanilla<br>
+      • 2 sdm sirup strawberry<br>
+      • Pewarna makanan merah (opsional)<br>
+      • Campuran tepung maizena dan gula halus untuk taburan</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Rendam gelatin dalam 100 ml air dingin selama 10 menit.<br>
+      2. Campur gula dan 50 ml air, masak hingga suhu 115°C.<br>
+      3. Lelehkan gelatin yang sudah mengembang dengan cara double boiler.<br>
+      4. Tuang sirup gula panas ke gelatin sambil mixer kecepatan tinggi.<br>
+      5. Mixer selama 10 menit hingga mengembang dan kental.<br>
+      6. Tambahkan vanilla, sirup strawberry, dan pewarna jika pakai.<br>
+      7. Tuang ke loyang yang sudah ditaburi campuran maizena-gula.<br>
+      8. Diamkan 4-6 jam hingga set, potong kotak-kotak, baluri dengan campuran maizena-gula.</p>
+
+      <p class="references"><b>Referensi & Sumber:</b><br>
+      • <a href="https://id.wikipedia.org/wiki/Marshmallow" target="_blank" rel="noopener">Wikipedia: Sejarah Marshmallow</a><br>
+      • <a href="https://www.detik.com/jateng/kuliner/d-7879822/tata-cara-membuat-marshmallow-berbagai-rasa-yang-manisnya-pas-dan-halal" target="_blank" rel="noopener">Detik: Resep Marshmallow Strawberry</a></p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- COFFEE -->
+    <div class="card" data-food-type="coffee">
+      <img src="coffee.jpg" alt="Coffee">
+      <h2>Kopi</h2>
+      <p><b>Asal Mula:</b><br>
+      Kopi berasal dari Ethiopia dan menyebar ke seluruh dunia melalui perdagangan Arab. Indonesia adalah produsen kopi terbesar keempat di dunia dengan varietas terkenal seperti Kopi Luwak, Kopi Toraja, Kopi Aceh Gayo, dan Kopi Kintamani Bali. Kopi telah menjadi bagian dari budaya Indonesia.</p>
+
+      <p><b>Bahan-bahan Kopi Susu Gula Aren:</b><br>
+      • 2 sdm bubuk kopi<br>
+      • 150 ml air panas<br>
+      • 50 ml susu cair<br>
+      • 2 sdm gula aren cair<br>
+      • Es batu secukupnya</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Seduh bubuk kopi dengan air panas, aduk rata.<br>
+      2. Saring kopi jika diperlukan untuk menghilangkan ampas.<br>
+      3. Tambahkan gula aren cair, aduk hingga larut.<br>
+      4. Siapkan gelas saji, isi dengan es batu.<br>
+      5. Tuang kopi yang sudah disaring ke dalam gelas.<br>
+      6. Tambahkan susu cair di atasnya.<br>
+      7. Aduk perlahan sebelum diminum.</p>
+
+      <p class="references"><b>Referensi & Sumber:</b><br>
+      • <a href="https://id.wikipedia.org/wiki/Kopi" target="_blank" rel="noopener">Wikipedia: Sejarah Kopi</a><br>
+      • <a href="https://www.briliofood.net/resep/5-resep-kopi-ala-fore-coffee-nikmat-segar-dan-mudah-dibuat-2408151.html" target="_blank" rel="noopener">Brilio: Resep Kopi Susu Gula Aren</a></p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- PIZZA -->
+    <div class="card" data-food-type="pizza">
+      <img src="pizza.jpg" alt="Pizza">
+      <h2>Pizza</h2>
+      <p><b>Asal Mula:</b><br>
+      Pizza berasal dari Napoli, Italia pada abad ke-18. Di Indonesia, pizza telah diadaptasi dengan berbagai topping lokal seperti sambal, ayam bumbu rica-rica, dan keju mozzarella. Pizza Margherita adalah varian klasik yang paling terkenal di seluruh dunia.</p>
+
+      <p><b>Bahan-bahan Adonan Pizza:</b><br>
+      • 250 gram tepung terigu protein tinggi<br>
+      • 150 ml air hangat<br>
+      • 1 sdt ragi instan<br>
+      • 1 sdt gula pasir<br>
+      • 1/2 sdt garam<br>
+      • 2 sdm minyak zaitun</p>
+
+      <p><b>Bahan Topping:</b><br>
+      • 100 gram saus tomat<br>
+      • 150 gram keju mozzarella<br>
+      • 50 gram jamur iris<br>
+      • 5 buah sosis sapi iris<br>
+      • 1 buah paprika iris<br>
+      • Oregano secukupnya</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Larutkan ragi dan gula dalam air hangat, diamkan 10 menit hingga berbuih.<br>
+      2. Campur tepung dan garam, buat lubang di tengah.<br>
+      3. Tuang campuran ragi dan minyak zaitun, uleni hingga kalis.<br>
+      4. Tutup adonan dengan kain, diamkan 1 jam hingga mengembang 2x lipat.<br>
+      5. Kempiskan adonan, gilas tipis sesuai bentuk loyang pizza.<br>
+      6. Olesi dengan saus tomat, taburi keju mozzarella, lalu topping lainnya.<br>
+      7. Taburi oregano, panggang dalam oven 200°C selama 15-20 menit hingga matang.</p>
+
+      <p class="references"><b>Referensi & Sumber:</b><br>
+      • <a href="https://id.wikipedia.org/wiki/Pizza" target="_blank" rel="noopener">Wikipedia: Sejarah Pizza</a><br>
+      • <a href="https://www.yummy.co.id/artikel/kuliner/resep-pizza-rumahan" target="_blank" rel="noopener">Yummy: Resep Pizza Rumahan</a></p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- ROTI -->
+    <div class="card" data-food-type="bread">
+      <img src="roti.jpg" alt="Roti">
+      <h2>Roti</h2>
+      <p><b>Asal Mula:</b><br>
+      Roti adalah salah satu makanan tertua yang dibuat manusia, sudah ada sejak 12.000 tahun lalu. Di Indonesia, roti telah berkembang menjadi berbagai varian seperti roti tawar, roti manis, dan roti isi dengan beragam rasa dan isian yang disesuaikan dengan selera lokal.</p>
+
+      <p><b>Bahan-bahan Roti Manis:</b><br>
+      • 500 gram tepung terigu protein tinggi<br>
+      • 100 gram gula pasir<br>
+      • 2 butir telur<br>
+      • 250 ml susu cair hangat<br>
+      • 2 sdt ragi instan<br>
+      • 100 gram mentega<br>
+      • 1 sdt garam<br>
+      • 1 sdt vanili bubuk</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Larutkan ragi dan 1 sdt gula dalam 50 ml susu hangat, diamkan 10 menit.<br>
+      2. Campur tepung, gula sisanya, vanili, dan garam.<br>
+      3. Tambahkan telur dan campuran ragi, uleni setengah kalis.<br>
+      4. Masukkan mentega sedikit demi sedikit, uleni hingga kalis elastis.<br>
+      5. Tutup adonan, diamkan 1 jam hingga mengembang 2x lipat.<br>
+      6. Kempiskan adonan, bagi menjadi 12 bagian, bulatkan.<br>
+      7. Tata di loyang, diamkan 30 menit hingga mengembang lagi.<br>
+      8. Olesi dengan susu atau telur, panggang 180°C selama 20-25 menit.</p>
+
+      <p class="references"><b>Referensi & Sumber:</b><br>
+      • <a href="https://id.wikipedia.org/wiki/Roti" target="_blank" rel="noopener">Wikipedia: Sejarah Roti</a><br>
+      • <a href="https://www.tokomesin.com/4-cara-membuat-roti-buatan-sendiri-enak-dan-empuk.html" target="_blank" rel="noopener">Tokomesin: Resep Roti Manis</a></p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- PASTA -->
+    <div class="card" data-food-type="pasta">
+      <img src="pasta.jpg" alt="Pasta">
+      <h2>Pasta</h2>
+      <p><b>Asal Mula:</b><br>
+      Pasta berasal dari Italia dan telah menjadi makanan pokoh di banyak negara. Di Indonesia, pasta populer dengan berbagai modifikasi seperti menggunakan bumbu lokal. Spaghetti carbonara adalah salah satu hidangan pasta paling populer di seluruh dunia.</p>
+
+      <p><b>Bahan-bahan Pasta Aglio Olio:</b><br>
+      • 200 gram spaghetti<br>
+      • 5 siung bawang putih iris tipis<br>
+      • 5 buah cabai rawit iris (opsional)<br>
+      • 50 ml minyak zaitun<br>
+      • 2 sdm parsley cincang<br>
+      • Garam dan merica secukupnya<br>
+      • Keju parmesan parut (opsional)</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Rebus spaghetti dalam air mendidih yang diberi garam hingga al dente.<br>
+      2. Sambil menunggu, panaskan minyak zaitun dengan api kecil.<br>
+      3. Tumis bawang putih hingga harum dan kecoklatan.<br>
+      4. Tambahkan cabai rawit jika suka pedas, tumis sebentar.<br>
+      5. Tiriskan spaghetti, sisakan 50 ml air rebusan.<br>
+      6. Masukkan spaghetti ke wajan, tambahkan air rebusan.<br>
+      7. Aduk rata, tambahkan parsley, garam, dan merica.<br>
+      8. Sajikan dengan taburan keju parmesan jika suka.</p>
+
+      <p class="references"><b>Referensi & Sumber:</b><br>
+      • <a href="https://id.wikipedia.org/wiki/Pasta" target="_blank" rel="noopener">Wikipedia: Sejarah Pasta</a><br>
+      • <a href="https://resepkoki.id/9-resep-pasta-super-praktis-dan-lezat/" target="_blank" rel="noopener">ResepKoki: Resep Pasta Aglio Olio</a></p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- CHEESECAKE -->
+    <div class="card" data-food-type="cheesecake">
+      <img src="cheesecake.jpg" alt="Cheesecake">
+      <h2>Cheesecake</h2>
+      <p><b>Asal Mula:</b><br>
+      Cheesecake berasal dari Yunani Kuno sekitar 2000 tahun lalu. Cheesecake modern yang kita kenal sekarang berkembang di Amerika. Di Indonesia, cheesecake telah menjadi dessert populer di kafe-kafe dengan berbagai varian seperti no-bake cheesecake yang lebih praktis.</p>
+
+      <p><b>Bahan-bahan Cheesecake Halus:</b><br>
+      • 200 gram biskuit Marie haluskan<br>
+      • 80 gram mentega leleh<br>
+      • 500 gram cream cheese<br>
+      • 150 gram gula halus<br>
+      • 200 ml krim kental<br>
+      • 3 butir telur<br>
+      • 1 sdm tepung maizena<br>
+      • 1 sdt vanili cair<br>
+      • 1 sdm air lemon</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Campur biskuit halus dengan mentega leleh, tekan di dasar loyang.<br>
+      2. Bekukan sambil membuat adonan.<br>
+      3. Kocok cream cheese dan gula hingga lembut.<br>
+      4. Tambahkan telur satu per satu, kocok rata.<br>
+      5. Masukkan krim kental, vanili, air lemon, dan maizena, aduk rata.<br>
+      6. Tuang ke atas crust, ratakan permukaan.<br>
+      7. Panggang dengan metode water bath 160°C selama 50-60 menit.<br>
+      8. Biarkan dalam oven yang dimatikan selama 1 jam, lalu dinginkan di kulkas minimal 4 jam.</p>
+
+      <p class="references"><b>Referensi & Sumber:</b><br>
+      • <a href="https://id.wikipedia.org/wiki/Cheesecake" target="_blank" rel="noopener">Wikipedia: Sejarah Cheesecake</a><br>
+      • <a href="https://www.resepnasional.com/cara-membuat-cheese-cake-halus-dan-lembut/" target="_blank" rel="noopener">Resep Nasional: Cheesecake Halus</a></p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- WAFFLE -->
+    <div class="card" data-food-type="waffle">
+      <img src="waffle.jpg" alt="Waffle">
+      <h2>Waffle</h2>
+      <p><b>Asal Mula:</b><br>
+      Waffle berasal dari Belgia dan sudah ada sejak abad pertengahan. Di Indonesia, waffle populer sebagai menu sarapan atau camilan dengan topping seperti es krim, sirup maple, buah-buahan, dan cokelat cair. Waffle memiliki tekstur khas yang renyah di luar dan lembut di dalam.</p>
+
+      <p><b>Bahan-bahan Waffle:</b><br>
+      • 200 gram tepung terigu<br>
+      • 2 sdt baking powder<br>
+      • 50 gram gula pasir<br>
+      • 2 butir telur<br>
+      • 300 ml susu cair<br>
+      • 75 gram mentega leleh<br>
+      • 1 sdt vanili cair<br>
+      • 1/4 sdt garam</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Ayak tepung terigu dan baking powder.<br>
+      2. Kocok telur dan gula hingga mengembang.<br>
+      3. Tambahkan susu cair, mentega leleh, dan vanili, aduk rata.<br>
+      4. Masukkan campuran tepung sedikit demi sedikit, aduk hingga halus.<br>
+      5. Panaskan alat waffle, olesi dengan sedikit mentega.<br>
+      6. Tuang adonan secukupnya, masak hingga matang dan kecoklatan.<br>
+      7. Angkat dan sajikan dengan topping favorit seperti madu, buah, atau es krim.</p>
+
+      <p class="references"><b>Referensi & Sumber:</b><br>
+      • <a href="https://id.wikipedia.org/wiki/Waffle" target="_blank" rel="noopener">Wikipedia: Sejarah Waffle</a><br>
+      • <a href="https://resepkoki.id/resep/resep-waffle/" target="_blank" rel="noopener">ResepKoki: Resep Waffle</a></p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+  </div>
+
+  <div id="detailContainer"></div>
+
+  <footer>
+    <p>Website by Kelompok 5🍞✨</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
